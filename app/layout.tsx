@@ -36,8 +36,8 @@ export const metadata = {
   },
 
   openGraph: {
+    // title: "Lyschor Real Estate",
     title: "Lyschor Real Estate",
-    // title: "Lyschor Real Estate — Legal RUB Payments",
     // description:
     //   "Licensed UAE brokerage with unique escrow RUB payment service",
     url: "https://lyschorrealestate.ae",
