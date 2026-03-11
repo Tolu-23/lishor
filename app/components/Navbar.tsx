@@ -57,7 +57,7 @@ export default function Navbar() {
           {/* Desktop Menu — NOW WORKS FROM ANY PAGE */}
           <div className="hidden lg:flex items-center gap-5 text-foreground">
             {[
-              { label: t.rubPayment, id: "rub-payment" },
+              // { label: t.rubPayment, id: "rub-payment" },
               { label: t.services, id: "services" },
               { label: t.whyUs, id: "why-us" },
               // { label: t.properties, id: "properties" },
