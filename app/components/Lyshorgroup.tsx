@@ -24,7 +24,7 @@ export default function LyschorGroup() {
           {[
             { num: "18+", label: t.stats.experience },
             { num: "10,000+", label: t.stats.projects },
-            { num: "9", label: t.stats.offices },
+            { num: "7", label: t.stats.offices },
           ].map((stat, i) => (
             <motion.div
               key={i}

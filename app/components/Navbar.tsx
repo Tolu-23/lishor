@@ -60,7 +60,7 @@ export default function Navbar() {
               { label: t.rubPayment, id: "rub-payment" },
               { label: t.services, id: "services" },
               { label: t.whyUs, id: "why-us" },
-              { label: t.properties, id: "properties" },
+              // { label: t.properties, id: "properties" },
               { label: t.contact, id: "contact" },
             ].map((item) => (
               <button
@@ -112,7 +112,7 @@ export default function Navbar() {
               </button>
             </div> */}
 
-            <Link
+            {/* <Link
               href="/freelance"
               className="bg-amber-500 hidden sm:block text-black text-sm sm:text-base px-5 sm:px-7 py-2.5 sm:py-3 rounded-xl font-bold hover:bg-amber-400 transition shadow-lg whitespace-nowrap">
               {t.cta}
@@ -121,7 +121,7 @@ export default function Navbar() {
               href="/freelance"
               className="bg-amber-500 sm:hidden block text-black text-sm sm:text-base px-5 sm:px-7 py-2.5 sm:py-3 rounded-xl font-bold hover:bg-amber-400 transition shadow-lg whitespace-nowrap">
               100%
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

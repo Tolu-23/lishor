@@ -2,9 +2,9 @@
 const translations = {
   en: {
     Hero: {
-      title: "Lyschor Real Estate LLC\nLicensed UAE Brokerage with",
+      title: "Lyschor Real Estate LLC\nLicensed UAE Brokerage",
       highlight: "Legal RUB Payments",
-      subtitle: "Buying & Selling • Leasing • 100% Transparent Transfers",
+      subtitle: "Buying & Selling • Leasing",
       cta1: "Request Consultation",
       cta2: "Message on Telegram",
     },
@@ -13,7 +13,7 @@ const translations = {
       paragraph1: {
         title: "Lyschor Real Estate LLC",
         part1:
-          "Licensed UAE Real Estate Brokerage. Legal RUB-Payment Service, Trusted guidance for ",
+          "Licensed UAE Real Estate Brokerage. Trusted guidance for ",
         buyingSelling: "Buying, Selling ",
         and: "and",
         leasing: "Leasing Property ",
@@ -49,7 +49,7 @@ const translations = {
     Footer: {
       description: {
         line1: "Licensed UAE Real Estate Brokerage",
-        line2: "Buying & Selling • Leasing Property • Legal RUB Payments",
+        line2: "Buying & Selling • Leasing Property",
       },
       quickLinks: {
         title: "Quick Links",
@@ -90,7 +90,7 @@ const translations = {
         experience: "18+ years of international experience",
         projects: "Completed Projects Worldwide",
         offices:
-          "Offices: Turkiye • Indonesia • Estonia • Poland • UAE • Romania • Cyprus • Moscow • Saint Petersburg",
+          "Offices: Turkiye • Indonesia • Estonia • Poland • UAE • Romania • Cyprus",
       },
       description:
         "Strong in-house legal team • Deep expertise in cross-border transactions • Flawless reputation since 2007",

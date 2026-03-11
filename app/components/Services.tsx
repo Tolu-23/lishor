@@ -17,10 +17,10 @@ export default function Services() {
       title: t.leasing.title,
       items: t.leasing.items,
     },
-    {
-      title: t.rubPayment.title,
-      items: t.rubPayment.items,
-    },
+    // {
+    //   title: t.rubPayment.title,
+    //   items: t.rubPayment.items,
+    // },
   ];
 
   return (
@@ -35,7 +35,7 @@ export default function Services() {
         {t.title}
       </motion.h2>
 
-      <div className="grid md:grid-cols-3 gap-10">
+      <div className="grid md:grid-cols-2 gap-10">
         {services.map((service, i) => (
           <motion.div
             key={i}

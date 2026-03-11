@@ -40,13 +40,13 @@ export default function Footer() {
               {t.quickLinks.title}
             </h4>
             <ul className="space-y-3 text-foreground/70">
-              <li>
+              {/* <li>
                 <Link
                   href="/freelance"
                   className="hover:text-amber-500 transition">
                   {t.quickLinks.freelance}
                 </Link>
-              </li>
+              </li> */}
               {/* <li>
                 <Link
                   href="/#properties"
@@ -54,13 +54,13 @@ export default function Footer() {
                   {t.quickLinks.properties}
                 </Link>
               </li> */}
-              <li>
+              {/* <li>
                 <Link
                   href="/#rub-payment"
                   className="hover:text-amber-500 transition">
                   {t.quickLinks.rub}
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   href="/#contact"
@@ -117,13 +117,6 @@ export default function Footer() {
                 <div>
                   <p className="font-medium">{t.offices.dubai.city}</p>
                   <p className="text-sm">{t.offices.dubai.address}</p>
-                </div>
-              </div>
-              <div className="flex gap-3">
-                <MapPin className="w-5 h-5 mt-0.5 shrink-0" />
-                <div>
-                  <p className="font-medium">{t.offices.russia.cities}</p>
-                  <p className="text-sm">{t.offices.russia.status}</p>
                 </div>
               </div>
             </div>

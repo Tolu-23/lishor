@@ -66,7 +66,7 @@ export default function Hero() {
               </span>
             ))}
             <br />
-            <span className="text-amber-500">{t.highlight}</span>
+            {/* <span className="text-amber-500">{t.highlight}</span> */}
           </h1>
 
           <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-gray-100 mb-10 max-w-3xl lg:max-w-none font-light">

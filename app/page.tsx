@@ -15,14 +15,14 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <FreelanceBanner />
+      {/* <FreelanceBanner /> */}
       <About />
       <LyschorGroup />
-      <RubPayment />
+      {/* <RubPayment /> */}
       <Services />
-      <OfferAgencies />
-      <PropertyShowcase />
-      <PaymentInfographic />
+      {/* <OfferAgencies /> */}
+      {/* <PropertyShowcase /> */}
+      {/* <PaymentInfographic /> */}
       <ContactForm />
     </>
   );

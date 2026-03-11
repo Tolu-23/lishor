@@ -57,7 +57,7 @@ export default function About() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.5 }}
-            className="grid grid-cols-2 gap-8">
+            className="grid grid-cols-1 gap-8">
             <div className="bg-card border border-white/10 rounded-2xl h-64 flex items-center justify-center text-center p-6 shadow-xl">
               <span className="text-lg font-medium">
                 {t.offices.dubai.title}
@@ -67,7 +67,7 @@ export default function About() {
                 </span>
               </span>
             </div>
-            <div className="bg-card border border-white/10 rounded-2xl h-64 flex items-center justify-center text-center p-6 shadow-xl">
+            {/* <div className="bg-card border border-white/10 rounded-2xl h-64 flex items-center justify-center text-center p-6 shadow-xl">
               <span className="text-lg font-medium">
                 {t.offices.moscowSpb.title}
                 <br />
@@ -75,7 +75,7 @@ export default function About() {
                   {t.offices.moscowSpb.status}
                 </span>
               </span>
-            </div>
+            </div> */}
           </motion.div>
         </div>
       </div>

@@ -28,11 +28,11 @@ export default function FreelanceBanner() {
         <p className="text-xl md:text-2xl text-black/90 mb-10 max-w-4xl mx-auto">
           {t.description}
         </p>
-        <Link
+        {/* <Link
           href="/freelance"
           className="inline-block bg-black text-white px-12 py-6 rounded-xl text-xl font-bold hover:bg-gray-900 transition-all duration-300 shadow-2xl hover:shadow-black/50">
           {t.cta}
-        </Link>
+        </Link> */}
       </motion.div>
     </section>
   );
