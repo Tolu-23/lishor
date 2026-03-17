@@ -62,7 +62,7 @@ export default function About() {
               <span className="text-lg font-medium">
                 {t.offices.dubai.title}
                 <br />
-                <span className="text-sm text-gray-500">
+                <span className="text-[14px] leading-[1px] text-gray-500 px-6">
                   {t.offices.dubai.status}
                 </span>
               </span>
