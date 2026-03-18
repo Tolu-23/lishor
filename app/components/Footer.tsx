@@ -119,6 +119,13 @@ export default function Footer() {
                   <p className="text-sm">{t.offices.dubai.address}</p>
                 </div>
               </div>
+              <div className="flex gap-3">
+                <MapPin className="w-5 h-5 mt-0.5 shrink-0" />
+                <div>
+                  <p className="font-medium">{t.offices.dubai.city}</p>
+                  <p className="text-sm">Majid Sultan Building, Office 3F-05, Al Muteena, Dubai, United Arab Emirates</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

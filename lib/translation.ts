@@ -28,8 +28,8 @@ const translations = {
       offices: {
         dubai: { title: "Dubai Office", status: "Single Business Tower, Office 3001-20, Business Bay, Dubai, United Arab Emirates" },
         moscowSpb: {
-          title: "Moscow & Saint Petersburg",
-          status: "Representative Offices",
+          title: "Dubai Offfice",
+          status: "Majid Sultan Building, Office 3F-05 Al Muteena, Dubai, United Arab Emirates",
         },
       },
     },
